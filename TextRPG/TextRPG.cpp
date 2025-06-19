@@ -1,6 +1,14 @@
 #include <iostream>
 
+using namespace std;
+void title() {
+    cout << "____ ____ ___  _      ____ ____ _    ____   ____   _  _    ____ " << endl;
+    cout << "|_ _\\| __\\|  \\ |\\/\\   |  _\\|   ||| \\ | . \\  |  _\\ / / |\\/\\ | __\\" << endl;
+    cout << "  || |  ]_| . \\|   \\  | _\\ | . |||_|\\|  <_  | [ \\/_  ]|   \\|  ]_" << endl;
+    cout << "  |/ |___/|/\\_/|/v\\/  |/   |___/|___/|/\\_/  |___/  |/ |/v\\/|___/" << endl;
+    cout << " " << endl;
+}
 int main()
 {
-    std::cout << "Hello World!\n";
+    title();
 }
